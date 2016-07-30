@@ -1,0 +1,19 @@
+{% load static from staticfiles %}
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>React App Starter Kit</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  </head>
+  <body>
+    {% block content %}
+      <div id="root"></div>
+    {% endblock content %}
+    <script src="static/app/public/dist/main.js?e9040cb889a35b516f5e"></script>
+  </body>
+</html>
